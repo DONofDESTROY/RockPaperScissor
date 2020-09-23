@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>RPS</title>
+  </head>
+  <body>
+    <h1 class="main-heading">Rock Paper Scissor</h1>
+    <!-- Input section -->
+    <section id="input">
+      <h3>Pick Your Weapon</h3>
+      <div class="user-choice">
+        <img id="rock" src="images/rock.png" />
+        <img id="paper" src="images/paper.png" />
+        <img id="scissor" src="images/scissor.png" />
+      </div>
+    </section>
+    <section id="playground">
+      <div id="user" class="box">
+        <div class="heading">Your choice</div>
+        <div class="choice"></div>
+      </div>
+      <div id="computer" class="box">
+        <div class="heading">Computer choice</div>
+        <div class="choice"></div>
+      </div>
+    </section>
+    <section id="score">
+      <div id="user">
+        <div><p class="heading">You Score</p></div>
+        <div><p class="value">0</p></div>
+      </div>
+      <div id="computer">
+        <div><p class="heading">Computer Score</p></div>
+        <div><p class="value">0</p></div>
+      </div>
+      <div id="tie">
+        <div><p class="heading">Tie Count</p></div>
+        <div class="value">0</div>
+      </div>
+      <a href="#" class="btn replay">Play Again</a>
+      <a href="#" class="btn reset">Reset Score</a>
+    </section>
+    <script src="javascript/app.js"></script>
+  </body>
+</html>
