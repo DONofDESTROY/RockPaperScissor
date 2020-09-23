@@ -119,7 +119,7 @@ function checkWinner() {
 function userWins() {
   userScore += 1;
   assignStorage("user", userScore);
-  const score = document.querySelector("#score #your .value");
+  const score = document.querySelector("#score #user .value");
   score.innerHTML = String(userScore);
 }
 
